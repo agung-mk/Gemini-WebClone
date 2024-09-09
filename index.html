@@ -4,61 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GeminiAI | WebClone</title>
-  
-    <!-- Favicon menggunakan link eksternal -->
-    <link rel="icon" href="https://qu.ax/ffqX.jpg" type="image/jpeg">
 
-  <!-- Linking Google Fonts For Icons -->
+  <!-- Favicon using an external link -->
+  <link rel="icon" href="https://qu.ax/ffqX.jpg" type="image/jpeg">
+  <!-- The favicon is a small icon displayed on the browser tab to help identify the website. -->
+
+  <!-- Linking Google Fonts for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Provides Font Awesome icons used throughout the interface. -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Provides Material Symbols font for additional icons used in the interface. -->
   <link rel="stylesheet" href="style.css">
+  <!-- Links to an external CSS file for styling and design of the page. -->
 </head>
 <body>
   <header class="header">
+    <!-- Header contains main elements displayed at the top of the page. -->
+
     <!-- Header Greetings -->
     <h1 class="title">Hello, there</h1>
     <p class="subtitle">How can I help you today?</p>
+    <!-- Greeting and introductory message for the user. -->
 
     <!-- About Button -->
     <button class="icon material-symbols-rounded about-btn" id="about-button">info</button>
+    <!-- Button to toggle the display of information about the website. -->
 
-<!-- About Card -->
-<div id="about-card" class="about-card hidden">
-  <h2 style="color: white;">About This Web</h2>
-  <br>
-  <p style="color: white;"><strong>Name:</strong> Agung Mahesa</p>
-  <p style="color: #A9A9A9;">
-    I just created this website as a clone of GeminiAI, a platform that I like because of its ability to process natural language 
-    and produce intelligent answers. I created this website to learn more about web development and imitate some of the features 
-    of GeminiAI.
-  </p>
-  <br>
-  <p style="color: white;"><strong>Description:</strong></p> 
-  <p style="color: #A9A9A9;">GeminiAI WebClone was only created for educational and exploratory purposes. I tried to replicate 
-    some design elements as well as the interface, but this is not the official version of GeminiAI. This website will continue 
-    to develop over time, and I am open to input and suggestions.
-  </p>      
-  <br>
-  <ul class="contact-list">
-    <li>
-      <a href="https://github.com/Gemini-WebClone" target="_blank" class="contact-icon" style="color: blue;">
-        <i class="fab fa-github"></i> Source
-      </a>
-    </li>
-    <li>
-      <a href="mailto:agungdev3@gmail.com" class="contact-icon" style="color: blue;">
-        <i class="fas fa-envelope"></i> Email
-      </a>
-    </li>
-    <li>
-      <a href="https://agung-dev.my.id" target="_blank" class="contact-icon" style="color: blue;">
-        <i class="fas fa-globe"></i> Website
-      </a>
-    </li>
-  </ul>
-</div>
+    <!-- About Card -->
+    <div id="about-card" class="about-card hidden">
+      <h2 style="color: white;">About This Web</h2>
+      <br>
+      <p style="color: white;"><strong>Name:</strong> Agung Mahesa</p>
+      <p style="color: #A9A9A9;">
+        This website is a clone of GeminiAI, a platform admired for its natural language processing capabilities. The project was created for learning purposes and to replicate some features of GeminiAI.
+      </p>
+      <br>
+      <p style="color: white;"><strong>Description:</strong></p>
+      <p style="color: #A9A9A9;">
+        GeminiAI WebClone is intended for educational and exploratory purposes. While it mimics certain design elements and features of GeminiAI, it is not an official version. The website will continue to evolve, and feedback is welcomed.
+      </p>
+      <br>
+      <ul class="contact-list">
+        <li>
+          <a href="https://github.com/Gemini-WebClone" target="_blank" class="contact-icon" style="color: blue;">
+            <i class="fab fa-github"></i> Source
+          </a>
+        </li>
+        <li>
+          <a href="mailto:agungdev3@gmail.com" class="contact-icon" style="color: blue;">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </li>
+        <li>
+          <a href="https://agung-dev.my.id" target="_blank" class="contact-icon" style="color: blue;">
+            <i class="fas fa-globe"></i> Website
+          </a>
+        </li>
+      </ul>
+    </div>
 
-    <!-- Suggestion list -->
+    <!-- Suggestion List -->
     <ul class="suggestion-list">
       <li class="suggestion">
         <h4 class="text">Create a poetry text with the title, free from your suggestions.</h4>
@@ -81,6 +86,7 @@
 
   <!-- Chat List / Container -->
   <div class="chat-list"></div>
+  <!-- Container for displaying chat messages. -->
 
   <!-- Typing Area -->
   <div class="typing-area">
@@ -88,17 +94,21 @@
       <div class="input-wrapper">
         <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
         <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+        <!-- Input field and button for sending messages to the AI. -->
       </div>
       <div class="action-buttons">
         <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
         <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+        <!-- Buttons for toggling the theme and deleting the chat. -->
       </div>
     </form>
     <p class="disclaimer-text">
-      Gemini may display inaccurate info, including about people, so double-check its responses.
+      Gemini may display inaccurate information, including about people, so please verify its responses.
     </p>
+    <!-- Disclaimer about the accuracy of information provided by the AI. -->
   </div>
 
   <script src="script.js"></script>
+  <!-- Links to the external JavaScript file that handles functionality. -->
 </body>
 </html>
