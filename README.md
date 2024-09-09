@@ -7,9 +7,9 @@ If you encounter an error like "API key not valid. Please pass a valid API key."
 1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey).
 2. Navigate to the API key section and create a new API key.
 
-Your API key will look something like this: AIzaSyAtpnKGX13bTgmx0l_gQeatYvdWvY_wOTQ
+Your API key will look something like this: AIzaSyDzgOdLlyl0peuWb-JGGiu2mvDhSbm0NwQ
 
-**Note:** The API is free but has a limited number of usage requests.
+**Note:** I've added the Fire Key so you can use it. If the Fire Key doesn't work it means it has been limited. The API is free but has a limited number of usage requests.
 
 ## Insert Your API Key
 
@@ -22,9 +22,10 @@ Your API key will look something like this: AIzaSyAtpnKGX13bTgmx0l_gQeatYvdWvY_w
 1. Save the `script.js` file after adding your API key.
 2. Open` index.html` in your browser to verify that Gemini is working correctly.
 
-If you still get an error or get stuck, feel free to message me on Buy Me a Coffee.
-https://buymeacoffee.com/codingnepal
+If you still get errors or are stuck, please message me at wa.me/6283126390134
+
+My donation is in Saweria: https://saweria.co/GeniusAI
 
 ---
 
-Happy coding!
+Happy Coding!
