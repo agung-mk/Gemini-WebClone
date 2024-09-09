@@ -1,35 +1,31 @@
 # Gemini | WebClone
 
-Gemini WebClone adalah proyek sederhana yang dibuat untuk meniru beberapa fitur dari platform GeminiAI, memungkinkan pengguna berinteraksi dengan AI berbasis web. Jika Anda mengalami masalah seperti pesan kesalahan **"API key not valid. Please pass a valid API key."** saat mencoba berkomunikasi dengan Gemini, ikuti langkah-langkah di bawah ini untuk memperbaikinya.
+Gemini WebClone is a project built to replicate key features of the GeminiAI platform, allowing users to interact with an AI-powered chatbot via a simple web interface. This project is perfect for educational purposes and exploring web development and AI integration.
 
-## Mendapatkan API Key
+## 🎯 Key Features
+- Clone of GeminiAI for AI-based web interactions
+- API key-based integration for AI communication
+- Simple and customizable interface with CSS animations for a sleek user experience
 
-1. Kunjungi [Google AI Studio](https://aistudio.google.com/app/apikey).
-2. Buka bagian **API Key** dan buat API key baru.
+## ⚙️ Setup Instructions
 
-Contoh API key yang akan Anda dapatkan terlihat seperti ini: `AIzaSyDzgOdLlyl0peuWb-JGGiu2mvDhSbm0NwQ`
+If you encounter an error like **"API key not valid. Please pass a valid API key."**, follow these steps to resolve the issue.
 
-**Catatan:** Saya telah menyediakan **Fire Key** yang dapat digunakan. Namun, jika Fire Key tidak berfungsi, itu berarti sudah mencapai batas penggunaannya. API ini gratis, tetapi memiliki batasan jumlah permintaan penggunaan.
+### Step 1: Obtain Your API Key
 
-## Memasukkan API Key Anda
+1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey).
+2. Generate a new API key under the **API Key** section.
 
-1. Buka folder proyek Anda menggunakan VS Code atau editor teks lainnya.
-2. Navigasi ke file `script.js` di dalam proyek Anda.
-3. Cari variabel `API_KEY` dan ganti nilai `PASTE-YOUR-API-KEY` dengan API key yang telah Anda buat.
+Your API key will look something like this: `AIzaSyDzgOdLlyl0peuWb-JGGiu2mvDhSbm0NwQ`
 
-## Simpan dan Uji
+> **Note**: A temporary **Fire Key** is provided for you to use, but if it stops working, it has likely reached its usage limit. The API is free but has a limited number of requests.
 
-1. Simpan file `script.js` setelah Anda memasukkan API key.
-2. Buka file `index.html` di browser Anda untuk memastikan Gemini berfungsi dengan benar.
+### Step 2: Insert the API Key
 
-Jika Anda masih mengalami masalah atau mengalami kesulitan, jangan ragu untuk menghubungi saya di [WhatsApp](https://wa.me/6283126390134).
+1. Open your project in VS Code (or your preferred text editor).
+2. Navigate to the `script.js` file.
+3. Replace the placeholder in the `API_KEY` variable with your actual API key.
 
----
-
-## Dukungan
-
-Jika Anda merasa proyek ini bermanfaat dan ingin memberikan dukungan, Anda dapat berdonasi melalui [Saweria](https://saweria.co/GeniusAI).
-
----
-
-Happy Coding! 🚀
+```javascript
+// script.js
+const API_KEY = 'PASTE-YOUR-API-KEY';  // Replace with your API key
