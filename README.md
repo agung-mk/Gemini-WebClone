@@ -1,4 +1,4 @@
-# Gemini Clone Project Setup Guide
+# Gemini | WebClone
 
 If you encounter an error like "API key not valid. Please pass a valid API key." while chatting with the Gemini, please follow these steps:
 
