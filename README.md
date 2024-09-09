@@ -11,6 +11,8 @@ Gemini WebClone is a project built to replicate key features of the GeminiAI pla
 
 If you encounter an error like **"API key not valid. Please pass a valid API key."**, follow these steps to resolve the issue.
 
+---
+
 ### Step 1: Obtain Your API Key
 
 1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey).
@@ -19,6 +21,8 @@ If you encounter an error like **"API key not valid. Please pass a valid API key
 Your API key will look something like this: `AIzaSyDzgOdLlyl0peuWb-JGGiu2mvDhSbm0NwQ`
 
 > **Note**: A temporary **Fire Key** is provided for you to use, but if it stops working, it has likely reached its usage limit. The API is free but has a limited number of requests.
+
+---
 
 ### Step 2: Insert the API Key
 
@@ -29,3 +33,24 @@ Your API key will look something like this: `AIzaSyDzgOdLlyl0peuWb-JGGiu2mvDhSbm
 ```javascript
 // script.js
 const API_KEY = 'PASTE-YOUR-API-KEY';  // Replace with your API key
+
+---
+
+### Step 3: Run the Project
+
+1. Save the `script.js` file after you enter the API key.
+2. Open the `index.html` file in your browser to ensure Gemini is working properly.
+
+If you are still experiencing problems or experiencing difficulties, please contact me on [WhatsApp](https://wa.me/6283126390134).
+
+---
+
+### Support 
+
+If you find this project useful and want to provide support, you can donate via [Saweria](https://saweria.co/GeniusAI).
+
+Website:  [Agung](https://agung-dev.my.id).
+
+---
+
+Happy Coding!!!
