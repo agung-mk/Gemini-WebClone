@@ -50,6 +50,7 @@ If you are still experiencing problems or experiencing difficulties, please cont
 If you find this project useful and want to provide support, you can donate via [Saweria](https://saweria.co/GeniusAI).
 
 Website:  [Agung](https://agung-dev.my.id).
+
 GeminiAI WebClone: [Demo site:](https://agung-mk.github.io/Gemini-WebClone/).
 
 ---
