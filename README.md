@@ -33,7 +33,7 @@ Your API key will look something like this: `AIzaSyDzgOdLlyl0peuWb-JGGiu2mvDhSbm
 ```javascript
 // script.js
 const API_KEY = 'PASTE-YOUR-API-KEY';  // Replace with your API key
-
+```
 ---
 
 ### Step 3: Run the Project
