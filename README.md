@@ -4,7 +4,7 @@ Gemini WebClone is a project built to replicate key features of the GeminiAI pla
 
 ## 🚀 Demo
 
-Check out the live [Demo site:](https://agung-mk.github.io/Gemini-WebClone/).
+Check out the live [Demo site.](https://agung-mk.github.io/Gemini-WebClone/)
 
 ## 🎯 Key Features
 
