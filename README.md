@@ -2,7 +2,12 @@
 
 Gemini WebClone is a project built to replicate key features of the GeminiAI platform, allowing users to interact with an AI-powered chatbot via a simple web interface. This project is perfect for educational purposes and exploring web development and AI integration.
 
+## 🚀 Demo
+
+Check out the live [Demo site:](https://agung-mk.github.io/Gemini-WebClone/).
+
 ## 🎯 Key Features
+
 - Clone of GeminiAI for AI-based web interactions
 - API key-based integration for AI communication
 - Simple and customizable interface with CSS animations for a sleek user experience
@@ -50,8 +55,6 @@ If you are still experiencing problems or experiencing difficulties, please cont
 If you find this project useful and want to provide support, you can donate via [Saweria](https://saweria.co/GeniusAI).
 
 Website:  [Agung](https://agung-dev.my.id).
-
-GeminiAI WebClone: [Demo site:](https://agung-mk.github.io/Gemini-WebClone/).
 
 ---
 
