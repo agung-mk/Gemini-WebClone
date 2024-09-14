@@ -50,6 +50,12 @@ If you are still experiencing problems or experiencing difficulties, please cont
 
 ---
 
+## Screenshot 
+
+<img src="https://i.ibb.co/Zz5R6J1/image.jpg" alt="Screenshot dari Aplikasi" width="400"/>
+
+---
+
 ### Support 
 
 If you find this project useful and want to provide support, you can donate via [Saweria](https://saweria.co/GeniusAI).
